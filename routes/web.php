@@ -3,27 +3,27 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('user.index');
+    return view('index');
 });
 Route::get('/works', function () {
-    return view('user.works');
+    return view('works');
 });
 Route::get('/works/project-edel', function () {
-    return view('user.works.project-edel');
+    return view('works.project-edel');
 });
 Route::get('/works/project-chat', function () {
-    return view('user.works.project-chat');
+    return view('works.project-chat');
 });
 Route::get('/works/project-classcancel', function () {
-    return view('user.works.project-classcancel');
+    return view('works.project-classcancel');
 });
 
 Route::get('/skills', function () {
-    return view('user.skills');
+    return view('skills');
 });
 
 Route::get('/contact', function () {
-    return view('user.contact');
+    return view('contact');
 });
 
     
