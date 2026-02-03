@@ -1,0 +1,107 @@
+@extends('layouts.app')
+@section('title', 'トップページ')
+
+@section('content')
+
+    <div>
+        <div class="skillsPage_title">
+            <h2>スキル</h2>
+            <p>これまでに手掛けた代表的な制作実績を紹介します。</p>
+            <p>技術力と創造性を活かした実績をご覧ください。</p>
+        </div>
+
+        <section class="skillsPage_skills">
+            <div class="skillsPage_skills_list">
+            <x-skill-container
+                icon="react.png"
+                name="react"
+                level="上級"
+                proficiency="85"
+                experience="3"
+                description="Reactを使用したフロントエンド開発に精通しており、コンポーネントベースの設計や状態管理に強みがあります。複雑なUIの構築やパフォーマンス最適化にも対応可能です。"
+            />
+            <x-skill-container
+                icon=""
+                name="Laravel"
+                level="中級"
+                proficiency="75"
+                experience="2"
+                description="Laravelを用いたバックエンド開発に豊富な経験があり、MVCアーキテクチャやEloquent ORMを活用した効率的な開発が可能です。API構築やセキュリティ対策にも対応しています。"
+            />
+            <x-skill-container
+                icon="python.png"
+                name="Python"
+                level="中級"
+                proficiency="70"
+                experience="2"
+                description="Pythonを用いたデータ分析や自動化ツールの開発に経験があり、効率的なコード作成と問題解決能力を備えています。"
+            />
+            <x-skill-container
+                icon="js.png"
+                name="JavaScript"
+                level="上級"
+                proficiency="90"
+                experience="3"
+                description="JavaScriptを使用したフロントエンド開発に精通しており、動的なユーザーインターフェースの構築やパフォーマンス最適化に強みがあります。"
+            />
+            <x-skill-container
+                icon="html.png"
+                name="HTML/CSS"
+                level="上級"
+                proficiency="95"
+                experience="4"
+                description="HTMLとCSSを用いたレスポンシブデザインやアクセシビリティに配慮したウェブページの作成に豊富な経験があります。"
+            />
+            <x-skill-container
+                icon="php.png"
+                name="PHP"
+                level="中級"
+                proficiency="70"
+                experience="2"
+                description="PHPを用いたサーバーサイド開発に経験があり、Laravelフレームワークを活用した効率的な開発が可能です。セキュリティ対策やデータベース操作にも対応しています。"
+            />
+            <x-skill-container
+                icon="figma.png"
+                name="Figma"
+                level="中級"
+                proficiency="75"
+                experience="2"
+                description="Figmaを用いたUI/UXデザインに経験があり、チームでの共同作業やプロトタイピングにも対応可能です。デザインシステムの構築にも関心を持っています。"
+            />
+            <x-skill-container
+                icon="git.png"
+                name="Git"
+                level="上級"
+                proficiency="90"
+                experience="4"
+                description="Gitを使用したバージョン管理に精通しており、チームでの効率的なコード管理とコラボレーションに強みがあります。ブランチ戦略やマージの経験も豊富です。"
+            />
+            <x-skill-container
+                icon="java.png"
+                name="Java"
+                level="中級"
+                proficiency="75"
+                experience="2"
+                description="Javaを用いたオブジェクト指向プログラミングに経験があり、Springフレームワークを活用したWebアプリケーション開発にも対応可能です。"
+            />
+            <x-skill-container
+                icon="ts.png"
+                name="TypeScript"
+                level="中級"
+                proficiency="70"
+                experience="2"
+                description="TypeScriptを用いた型安全なJavaScript開発に経験があり、ReactやNode.jsでの開発にも対応可能です。静的型チェックによりコードの品質向上に貢献できます。"
+            />
+            <x-skill-container
+                icon="next.png"
+                name="Next"
+                level="中級"
+                proficiency="75"
+                experience="2"
+                description="Next.jsを用いたSSR/SSG対応のReactアプリケーション開発に経験があり、パフォーマンス最適化やSEO対策にも対応可能です。"
+            />
+            <!-- 制作実績 -->
+        </div>
+        </section>
+    </div>
+@endsection
